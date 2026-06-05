@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NarrativeLab</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #0f0f0f;
+      color: white;
+      text-align: center;
+      padding: 50px;
+    }
+    input {
+      padding: 10px;
+      width: 300px;
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+    .box {
+      margin-top: 30px;
+      padding: 20px;
+      border: 1px solid #333;
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>🚀 NarrativeLab</h1>
+  <p>Turn ideas into crypto narratives</p>
+
+  <input id="idea" placeholder="e.g. AI + memes">
+  <button onclick="generate()">Generate</button>
+
+  <div class="box" id="output">Output will appear here</div>
+
+  <script>
+    function generate() {
+      let idea = document.getElementById("idea").value;
+
+      let result = "";
+
+      if (idea.includes("ai")) {
+        result = "MemeMind — AI-powered meme economy";
+      } else if (idea.includes("game")) {
+        result = "ChainQuest — On-chain gaming universe";
+      } else {
+        result = "SocialFi Protocol — Creator-driven economy";
+      }
+
+      document.getElementById("output").innerText = result;
+    }
+  </script>
+
+</body>
+</html>
