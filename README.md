@@ -35,4 +35,12 @@ Output:
 
 ---
 
-Built for crypto culture and creators.
+Built for crypto culture and creators.---
+
+## Why NarrativeLab?
+
+In crypto, narratives move markets.
+
+NarrativeLab helps turn simple ideas into investable stories that can spread.
+
+It is not financial advice. It is narrative engineering.
