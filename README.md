@@ -1,4 +1,17 @@
-# NarrativeLab
+## 🚀 Live Concept Demo
+
+NarrativeLab turns ideas into crypto narratives instantly.
+
+Try examples:
+
+- Input: AI + memes  
+  Output: MemeMind — AI-powered meme economy
+
+- Input: gaming + web3  
+  Output: ChainQuest — On-chain gaming universe
+
+- Input: influencers + tokens  
+  Output: SocialFi Protocol — Creator-driven economies# NarrativeLab
 
 NarrativeLab is a simple crypto narrative generator.
 
